@@ -1,0 +1,48 @@
+.screen {
+    height: 200px;
+    width: 100%;
+    border: 5px solid;
+    border-color: black;
+    background-color: rgb(215, 246, 188);
+    grid-column-start: 1;
+    font-size: xx-large;
+}
+
+.his {
+    background-color: rgb(215, 246, 188);
+    height: 200px;
+    width : 100%;
+    border: 5px solid;
+    border-color: black;
+    overflow: scroll;
+    grid-column-start: 2;
+    font-size: xx-large;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    background-color: #7b7b7b;
+    padding: 5px;
+    
+}
+
+.grid-container {
+    display: grid;
+        grid-template-columns: auto auto ;
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+}
+
+.screen2 {
+    display: none;
+    height: 50px;
+    width: 50%;
+    border: 5px solid;
+    border-color: black;
+    background-color: rgb(215, 246, 188);
+}
+    
+
+  

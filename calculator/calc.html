@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1> Calculator</h1>
+
+    <div class="grid-container">
+        <input class="screen" id="screen"></input>
+        <div id="his" class="his"></div>
+    </div>
+
+    <div class="button">
+        <button id="0" onclick="equation(0)">0</button>
+        <button id="1" onclick="equation(1)">1</button>
+        <button id="2" onclick="equation(2)">2</button>
+        <button id="3" onclick="equation(3)">3</button>
+        <button id="4" onclick="equation(4)">4</button>
+        <button id="5" onclick="equation(5)">5</button>
+        <button id="6" onclick="equation(6)">6</button>
+        <button id="7" onclick="equation(7)">7</button>
+        <button id="8" onclick="equation(8)">8</button>
+        <button id="9" onclick="equation(9)">9</button>
+        <button id="9" onclick="equation(`-`)">-</button>
+        <button id="+" onclick="equation(`+`)">+</button>
+        <button id="*" onclick="equation(`*`)">*</button>
+        <button id="/" onclick="equation(`/`)">/</button>
+        <button id="=" onclick="answer()">=</button>
+        <button id="clear" onclick="Clear()">DEL</button>
+        <button id="." onclick="equation(`.`)">.</button>
+        <button id="10^" onclick="equation(`*10**`)">x10^</button>
+        <button id="prev" onclick="past()" >ANS</button>
+    </div>
+    
+    <script src="calc.js"></script>
+
+</body>
+</html>
